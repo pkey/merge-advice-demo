@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/justshiv/merge-advice-demo#readme",
   "dependencies": {
+    "acorn": "^6.4.0",
     "yargs-parser": "18.1.0",
     "yarn": "^1.21.1"
   }
