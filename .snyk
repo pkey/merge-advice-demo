@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - next > @babel/core > lodash:
+        patched: '2020-08-05T07:12:22.110Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2020-08-05T07:12:22.110Z'
+    - next > babel-plugin-transform-define > lodash:
+        patched: '2020-08-05T07:12:22.110Z'
+    - next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-08-05T07:12:22.110Z'
+    - next > autodll-webpack-plugin > webpack-merge > lodash:
+        patched: '2020-08-05T07:12:22.110Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2020-08-05T07:12:22.110Z'
+    - next > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-08-05T07:12:22.110Z'
+    - next > @babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-08-05T07:12:22.110Z'
