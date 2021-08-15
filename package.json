@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/justshiv/merge-advice-demo#readme",
   "dependencies": {
-    "next": "^9.3.0",
+    "next": "^11.1.0",
     "yargs-parser": "18.1.0",
     "yarn": "^1.21.1"
   }
